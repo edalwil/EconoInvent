@@ -1,61 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Crear cuenta</title>
-    <link rel="stylesheet" href="../styles/crear_cuenta.css" />
-  </head>
 
-  <body>
-    <div class="button-reversa">
-      <button>
-        <a href="../index/Index.html"
-          ><img src="../image/atras.png" alt=""
-        /></a>
-      </button>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crear cuenta</title>
+  <link rel="stylesheet" href="../styles/crear_cuenta.css" />
+</head>
+
+<body>
+  <div class="button-reversa">
+    <button>
+      <a href="/Index.html"><img src="../image/atras.png" alt="" /></a>
+    </button>
+  </div>
+  <main>
+    <div class="contenedor-main-1 contenedor1">
+      <img src="../image/continuar 1.png" alt="logo" />
+      <h3>Econoinvent</h3>
     </div>
-    <main>
-      <div class="contenedor-main-1 contenedor1">
-        <img src="../image/continuar 1.png" alt="logo" />
-        <h3>Econoinvent</h3>
-      </div>
-      <div class="contenedor-main-1 contenedor2">
-        <form class="cnt2-tabla" id="formulario2">
-          <div class="campo-contenedor">
-            <label for="fnumberPhone">Numero Telefonico:</label><br />
-            <input type="text" id="fnumberPhone" name="fnumberPhone" /><br />
-            <div id="errorTelefono" class="error-message"></div>
-          </div>
+    <div class="contenedor-main-1 contenedor2">
+      <form class="cnt2-tabla" id="formulario2">
+        <div class="campo-contenedor">
+          <label for="fnumberPhone">Numero Telefonico:</label><br />
+          <input type="text" id="fnumberPhone" name="fnumberPhone" /><br />
+          <div id="errorTelefono" class="error-message"></div>
+        </div>
 
-          <div class="campo-contenedor">
-            <label for="fnombre">Nombre completo:</label><br />
-            <input type="text" id="fnombre" name="fnombre" /><br />
-            <div id="errorNombre" class="error-message"></div>
-          </div>
+        <div class="campo-contenedor">
+          <label for="fnombre">Nombre completo:</label><br />
+          <input type="text" id="fnombre" name="fnombre" /><br />
+          <div id="errorNombre" class="error-message"></div>
+        </div>
 
-          <div class="campo-contenedor">
-            <label for="fcorreo">Correo:</label><br />
-            <input type="text" id="fcorreo" name="fcorreo" /><br />
-            <div id="errorCorreo" class="error-message"></div>
-          </div>
+        <div class="campo-contenedor">
+          <label for="fcorreo">Correo:</label><br />
+          <input type="text" id="fcorreo" name="fcorreo" /><br />
+          <div id="errorCorreo" class="error-message"></div>
+        </div>
 
-          <div class="campo-contenedor">
-            <label for="fpassword">Contraseña:</label><br />
-            <input type="password" id="fpassword" name="fpassword" /><br />
-            <div id="errorPassword" class="error-message"></div>
-          </div>
+        <div class="campo-contenedor">
+          <label for="fpassword">Contraseña:</label><br />
+          <input type="password" id="fpassword" name="fpassword" /><br />
+          <div id="errorPassword" class="error-message"></div>
+        </div>
 
-          <div class="contenedor-main-1 bnt-registro">
-            <button type="submit" class="bnb">Registrarse</button>
-          </div>
-        </form>
-      </div>
-    </main>
-    <div class="cnt-creacion-cuenta" id="otra-cuenta">
-      <h3>Cuenta Creada</h3>
+        <div class="contenedor-main-1 bnt-registro">
+          <button type="submit" class="bnb">Registrarse</button>
+        </div>
+      </form>
     </div>
+  </main>
+  <div class="cnt-creacion-cuenta" id="otra-cuenta">
+    <h3>Cuenta Creada</h3>
+  </div>
 
-    <script type="module" src="../javascript/validacionCrearCuenta.js"></script>
-  </body>
+  <script type="module" src="../javascript/validacionCrearCuenta.js"></script>
+</body>
+
 </html>
