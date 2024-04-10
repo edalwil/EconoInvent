@@ -1,0 +1,153 @@
+html {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background: #1c4cf5d9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-items: center;
+  width: 600px;
+  height: 500px;
+  background: #fff;
+  border: solid 1px black;
+  align-content: space-evenly;
+}
+
+.contenedor-main-1 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor1 img {
+  width: 70px;
+  height: 70px;
+  margin-right: 10px;
+}
+
+.contenedor1 h3 {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.cnt2-tabla {
+  text-align: center;
+}
+
+.cnt2-tabla input {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 400px;
+  height: 30px;
+  border: 1px solid #ae9494;
+}
+
+.cnt2-tabla label {
+  color: #000;
+  text-shadow: 0px 4px 4px rgb(0, 0, 0, 0);
+  font-family: initial;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.bnb {
+  cursor: pointer;
+  border: none;
+  width: 405.6px;
+  height: 43.6px;
+  flex-shrink: 0;
+  background: #546fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.bnb {
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+  font-family: initial;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.contenedor4 a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* button de reversa */
+.button-reversa {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.button-reversa img {
+  width: 50px;
+  height: 50px;
+}
+
+.bnt-registro {
+  padding: 0px;
+  margin: 0px;
+}
+
+.cnt-creacion-cuenta {
+  align-items: center;
+  justify-content: center;
+  display: none;
+  background-color: #fff;
+  position: absolute;
+  border: solid 1px black;
+  width: 600px;
+  height: 500px;
+}
+
+/* botones */
+
+button:hover {
+  background-color: #333;
+}
+
+button:hover {
+  color: #fff;
+}
+
+a:hover {
+  color: #546fff;
+}
+
+.campo-contenedor {
+  position: relative; /* Establece el contenedor padre como posición relativa */
+  margin-bottom: 20px; /* Ajusta el margen inferior para separar los campos */
+}
+
+.error-message {
+  position: absolute; /* Establece el mensaje de error como posición absoluta */
+  top: 100%; /* Coloca el mensaje de error justo debajo del campo de entrada */
+  left: 0; /* Alinea el mensaje de error con el borde izquierdo del contenedor padre */
+  color: red; /* Color del texto del mensaje de error */
+  font-size: 12px; /* Tamaño de fuente del mensaje de error */
+  display: none; /* Oculta el mensaje de error por defecto */
+}

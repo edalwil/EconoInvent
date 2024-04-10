@@ -1,0 +1,143 @@
+html {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background: #1c4cf5d9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-items: center;
+  width: 500px;
+  height: 400px;
+  background: #fff;
+  border: solid 1px black;
+}
+
+.contenedor-main-1 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor1 img {
+  width: 70px;
+  height: 70px;
+}
+
+.contenedor1 h3 {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.cnt2-tabla {
+  text-align: center;
+}
+
+.cnt2-tabla input {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  width: 400px;
+  height: 40px;
+  border: 1px solid #ae9494;
+}
+
+.cnt2-tabla label {
+  color: #000;
+  text-shadow: 0px 4px 4px rgb(0, 0, 0, 0);
+  font-family: initial;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.contenedor2 img {
+  padding-right: 15px;
+}
+
+.bnb {
+  cursor: pointer;
+  border: none;
+  width: 405.6px;
+  height: 43.6px;
+  flex-shrink: 0;
+  background: #546fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+  font-family: initial;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.bnb a {
+  display: flex;
+  justify-content: center;
+  transition: background-color 0.3s;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #ffff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.contenedor4 a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* button de reversa */
+.button-reversa {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.button-reversa img {
+  width: 50px;
+  height: 50px;
+}
+
+.btn-recuperar {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+/* botones */
+
+button:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+a:hover {
+  color: #546fff;
+}
+
+.btn-recuperar:hover {
+  background-color: transparent;
+  color: red;
+}

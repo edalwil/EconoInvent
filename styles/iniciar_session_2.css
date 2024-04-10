@@ -1,0 +1,134 @@
+html {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background: #1c4cf5d9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-items: center;
+  width: 500px;
+  height: 400px;
+  background: #fff;
+  border: solid 1px black;
+}
+
+.contenedor-main-1 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor1 {
+  margin-top: 20px;
+  width: 400px;
+  height: 60px;
+  background: #d9d9d9;
+}
+
+.contenedor2 img {
+  width: 70px;
+  height: 70px;
+}
+
+.contenedor1 img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.contenedor2 h3 {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.contenedor3 {
+  padding: 0%;
+  border: none;
+  position: relative;
+  width: 400px;
+  height: 60px;
+}
+
+.contenedor3 img {
+  left: 25px;
+  position: absolute;
+  padding-right: 15px;
+}
+
+.contenedor3 a {
+  display: flex;
+  cursor: pointer;
+  width: 400px;
+  height: 60px;
+  color: #fff;
+  background: #546fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor4 a {
+  text-decoration: none;
+  color: #000;
+}
+
+.contenedor4 p {
+  font-size: 18px;
+  font-style: italic;
+  font-family: initial;
+}
+
+.contenedor5 p {
+  padding-right: 15px;
+}
+
+.contenedor5 a {
+  text-decoration: none;
+  color: #f00;
+}
+
+/* button de reversa */
+.button-reversa {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.button-reversa img {
+  width: 50px;
+  height: 50px;
+}
+
+/* botones */
+
+button:hover {
+  background-color: #333;
+}
+
+button:hover p {
+  color: #fff;
+}
+
+a:hover {
+  color: #000;
+}

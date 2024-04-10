@@ -1,0 +1,127 @@
+html {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background: #1c4cf5d9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor2 h3 {
+  color: #5e81fe;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.contenedor3 form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contenedor3 label {
+  color: #000;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.contenedor3 input {
+  width: 450px;
+  height: 40px;
+  flex-shrink: 0;
+  border: 1px solid #ae9494;
+  background: #fff;
+}
+
+.contenedor3 button {
+  cursor: pointer;
+  width: 456px;
+  height: 44px;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  background-color: #546fff;
+  border: none;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-items: center;
+  width: 600px;
+  height: 500px;
+  background: #fff;
+  padding: 0px;
+}
+
+.contenedor-main-1 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor1 img {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.contenedor1 h3 {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+/* button de reversa */
+.button-reversa {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.button-reversa img {
+  width: 50px;
+  height: 50px;
+}
+
+.bnt-registro {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* botones */
+
+button:hover {
+  background-color: #333;
+}
+
+button:hover {
+  color: #fff;
+}
+
+a:hover {
+  color: #546fff;
+}

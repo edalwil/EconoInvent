@@ -1,0 +1,98 @@
+body {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.contenedor-section-iniciar-session {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: auto;
+  justify-content: space-around;
+}
+
+.section-iniciar-session-1 {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #1c4cf5;
+}
+
+.button-reversa {
+  cursor: pointer;
+  width: 100%;
+}
+
+.section-iniciar-session-1 .button-reversa img {
+  width: 50px;
+  height: 50px;
+}
+
+.section-iniciar-session-1 img {
+  width: 512px;
+  height: 512px;
+  flex-shrink: 0;
+}
+
+.section-iniciar-session-1 p {
+  margin: 8px;
+  color: #fff;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.section-iniciar-session-2 {
+  display: flex;
+  margin: 100px 100px 0px 100px;
+  flex-direction: column;
+}
+
+.contenedor-logo-iniciar-session {
+  display: flex;
+}
+
+.contenedor-button-iniciar-session {
+  display: flex;
+  flex-direction: column;
+}
+
+.contenedor-button-iniciar-session button {
+  padding: 0;
+  border: none;
+  margin-top: 29px;
+  width: 550px;
+  height: 60px;
+  border-radius: 10px;
+}
+
+.contenedor-button-iniciar-session button a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 550px;
+  height: 60px;
+  background-color: #546fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #ffff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* butones */
+
+button a:hover {
+  background-color: #333;
+}
+
+button:hover {
+  background-color: #333;
+}
